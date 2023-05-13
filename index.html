@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><!---->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJP Ferreteria</title>
+    <link rel="icon" type="imagen/x-icon" href="imagenes/Logo con tipografía circular para servicios fotógrafo beis y negro.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/estilo.css"/>
+</head>
+<body>
+    <!--Menu navegación(CABECERA)  imagenslider
+    -->
+    <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg fondoTitulo">
+        <div class="container-fluid ">
+            <div class="tituloLogo">
+                <h1 class="classLogo "><b>JJP</b></h1>
+                <div class="tituloUbicacion">
+                    <h3>Ferreteria Jimmy Jhon Paredes</h3>                
+                </div>
+            </div>
+
+
+          <div class="collapse navbar-collapse centrado" id="navbarNavTogglerDemo01">
+            
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+
+          <div>
+            <a class="btna btn-outline-dark botonmenured" href="http://wa.link/cdk7h6" target="_blank">
+                <img src="imagenes/watshapp img.png" width="50px">
+            </a>
+            <a class="separacionIconos">
+                <img src="imagenes/carrito2.0.png" width="50px">
+            </a>
+          </div>
+        </div>
+      </nav>
+    <nav class="navbar navbar-expand-lg fondomenu " id="mainNav">
+        <div class="container-fluid" >
+
+                <li class="nav-item">
+                    <a class="nav-link"  href="#catalogo">CATALOGO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#ubicacion">UBICANOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#horarios">HORARIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#asesoramiento">ASESORAMIENTO</a>
+                </li>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <section class="colorSlider pt-5" style="display: flex; align-items: center; justify-content: center; padding: 1rem;" >
+        <div class="container pt-5" >
+            <div class="row mt-5 ">
+                <div class="px-5 ">
+                    <!--CARRUSEL DE IMAGENES-->
+                        <div id="carouselExample" class="carousel slide">
+                            <!--CONTENEDOR DE IMAGENES-->
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imagenes/Cemento.png" class="imagenslider" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/Cemento pared.png" class="imagenslider" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/Cementodiamama.png" class="imagenslider" alt="...">
+                              </div>
+                            </div>
+                            <!--BOTONES-->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>                       
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogo -->
+    <section id=catalogo>
+        <div class="container text-center">
+            <h2 class="subtitulo">CATALOGO</h2>
+            <div class="row mt-5">
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio" data-bs-toggle="modal" data-bs-target="#modalCemento">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/bolsaCementoSol.png">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                                <h2>Bolsa de cemento <br></h2>
+                                 Sol 42.5kg<br>
+                                 Tipo I<br>
+                                 S/ 29.00 x unid
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio" data-bs-toggle="modal" data-bs-target="#modalArena">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/ArenaGruesa.jpg">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                                <h2>Arena Gruesa construcción <br></h2>
+                                 1x1x1m metro cubico<br>
+                                 <p class="colorOferta"><b>Envio Domicilio</b></p><br>
+                                 S/ 43.00 x m3
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio" data-bs-toggle="modal" data-bs-target="#modalTuboAbasto">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/TuboDeAbastoScrubert.jpg">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                            <h2>Tubo de abasto<br></h2>
+                            Schubert Tubo de abasto<br>
+                            Reforzado con aluminio R/PVC<br>
+                            1/2"x 7/8"x40cm<br>
+                            S/ 7.50 x unid
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio "data-bs-toggle="modal" data-bs-target="#modalTrampa">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/TrampaItalPlastic.webp">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                            <h2>Trampa Lavadero<br></h2>
+                            ItalPlastics<br>
+                             Trampa para lavadero y lavatorio<br>
+                             S/. 10.00 x unid
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio"data-bs-toggle="modal" data-bs-target="#modalOpalux">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/opalux220V.webp">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                            <h2>Foco LED 9W<br></h2>
+                            OPALUX lighting luz led blanco<br>
+                            OP-9X3C 220v <br>
+                            S/ 7.00 x unid
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio"data-bs-toggle="modal" data-bs-target="#modalOatey">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/OateyMedianoAzul.jpg">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                            <h2>Cemento para PVC<br></h2>
+                            Oatey mediano azul 118ml<br>
+                            Cemento para pvc RAIN-R-SHINE<br>
+                            S/15.00                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portafolio"data-bs-toggle="modal" data-bs-target="#modalLedGrande">
+                        <div>
+                            <img class="img-fluid" src="imagenCatalogo/LedRecargable.jpg">
+                        </div>
+                        <div class="text-lg-start">
+                            <p >
+                            <h2>Foco led recargable<br></h2>
+                            NuevoVelixLed 30w<br>
+                            CLR-30W<br>
+                            S/ 23.00
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACION -->
+    <section class="portafolio colorUbicanos" id="ubicacion">
+        <div class="container pb-5 colorTextUbicanos">
+            <h2 class="subtitulo text-center mb-4">UBICANOS</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 px-5">
+                    <p >
+                        Mz H' Sector 2 Bsrrio 4 Urb. Pachacamac
+                        Av Revolución - Av. Las Dunas
+                        Las Brisas | V.E.S   
+                    </p>
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="imagenes/IMG_20230428_135906_1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/IMG_20230428_135913.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="imagenes/IMG_20230428_135853.jpg" class="d-block w-100" alt="...">
+                              </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>                       
+                </div>
+
+                <div class="col-md-6 px-5">
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d251.60148964863896!2d-76.91999404487761!3d-12.240665691860166!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105bb527fe190cf%3A0xfa94bb5e5bb71528!2sFerreterias%20JJP!5e0!3m2!1ses-419!2spe!4v1683394394750!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HORARIOS -->
+    <section class="horarios" id="horarios">
+        <div class="container pb-5">
+            <h2 class="subtitulo text-center mb-4">HORARIO DE ATENCION</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 px-5">
+                    <h2>Atención al cliente
+                        
+                    </h2>
+                    <p><h3>
+                        Lunes-viernes
+                        8am-7pm
+                        Sabados
+                        9am-1pm
+                    </h3>
+
+                    </p>                        
+                </div>
+                <div class="col-md-6 px-5">
+                    <p>
+                        Estamos encantados de anunciar que ahora abrimos todos los días, de lunes a domingo, desde las 7 am hasta las 8 pm para que puedas visitarnos y comprar todo lo que necesites. ¡No más preocupaciones por no tener tiempo para hacer tus compras!
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto">
+        <div class="container pb-5">
+            <h2 class="subtitulo text-center mb-4">CONTACTO</h2>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-8 col-xl-7">
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" type="text" data-sb-validations="required" id="nombre">
+                            <label>Nombres y Apellidos</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre es obligatorio</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" type="email" data-sb-validations="required" id="correo">
+                            <label>Correo</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Correo es obligatorio</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" type="tel" data-sb-validations="required" id="celular">
+                            <label>Número de celular</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Celular es obligatorio</div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" type="text" data-sb-validations="required"
+                            id="mensaje" style="height: 130px;">
+                            </textarea>
+                            <label>Mensaje</label>
+                            <div class="invalid-feedback" data-sb-feedback="nombre:required">Mensaje es obligatorio</div>
+                        </div>
+
+                        <button type="button" class="btn btn-warning">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ASESORAMIENTO -->
+    <section class="portafolio" id="asesoramiento">
+        <div class="container pb-5">
+            <h2 class="subtitulo text-center mb-4">ASESORAMIENTO</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 px-5">
+                    <p>
+                        <h3>¡Refuerza tu hogar en suelos inestables con nuestra ayuda!</h3>                   
+
+Si tu hogar está construido en un terreno inestable, ¡no te preocupes! Nuestro equipo de expertos en construcción tiene la solución.
+
+[Texto destacado que destaca la experiencia y conocimientos del equipo]
+
+Con años de experiencia en el reforzamiento de estructuras en terrenos inestables, sabemos exactamente qué hacer para que tu hogar sea seguro y resistente.
+<br>
+
+<br>
+<img src="imagenes/familia feliz.jpg" width="400px" ><br>
+                    </p>                        
+                </div>
+                <div class="col-md-6 px-5">
+                    <p>  <h3>¡Contáctanos hoy mismo para obtener asesoramiento profesional y reforzar tu hogar!</h3>  <br>    
+                        <a class="btna btn-outline-dark botonmenured whatsappNumero" href="http://wa.link/cdk7h6" target="_blank">
+                            <img src="imagenes/watshapp img.png" width="50px" >
+                            <h4 class="tituloUbicacion">970784810</h4> 
+                        </a>
+                        <br>
+                        <h4>
+                            Correo electrónico: jjpferrteriaonline_23@gmail.com<br>
+                            Teléfono: 970784810
+                        </h4>
+                        <br>
+                        <div class="whatsappNumero">
+                            <img src="imagenes/Logo con tipografía circular para servicios fotógrafo beis y negro.png" width="100px">
+                            <h3 class="tituloUbicacion">Ferreterias JJP</h3>
+                        </div>
+                        
+                        <br>
+                        ¡Trabajamos para garantizar la seguridad y durabilidad de tu hogar en cualquier tipo de terreno!                    
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center pie">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="tituloFooter">DIRECCIÓN</h4>
+                    <p>
+                        Mz H' Sector 2 Barrio 4<br>
+                        Urb. Pachacamac<br>
+                        Av. Revolución - Av. Las dunas
+                        Villa el Salvador - Lima
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="tituloFooter">REDES SOCIALES</h4>
+                    
+                    <a class="btn btn-outline-light botonRedes" href="#">
+                        <i class="fa-brands fa-facebook-f fa-2xl"></i>
+                    </a>  
+                    <a class="btn btn-outline-light botonRedes">
+                        <i class="fa-brands fa-twitter fa-2xl"></i>
+                    </a>
+                    <a class="btn btn-outline-light botonRedes" href="http://wa.link/cdk7h6" target="_blank">
+                        <i class="fa-brands fa-whatsapp fa-2xl"></i>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="tituloFooter">SOBRE NOSOTROS</h4>
+                    <p>
+                        Este proyecto es un desarrollo<br>
+                        académico del curso de Diseño Web
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--MODAL para imagen de cemento SOL-->
+    <div class="modal fade" id="modalCemento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/bolsaCementoSol.png">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL para la imagen de Arena-->
+    <div class="modal fade" id="modalArena" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/ArenaGruesa.jpg">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL 03-->
+    <div class="modal fade" id="modalTuboAbasto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/TuboDeAbastoScrubert.jpg">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL 04-->
+    <div class="modal fade" id="modalTrampa" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/TrampaItalPlastic.webp">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL 05-->
+    <div class="modal fade" id="modalOpalux" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/opalux220V.webp">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL 06-->
+    <div class="modal fade" id="modalOatey" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/OateyMedianoAzul.jpg">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+    <!--MODAL 06-->
+    <div class="modal fade" id="modalLedGrande" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+            </div>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-log-80">
+                        <img class="img-fluid" src="imagenCatalogo/LedRecargable.jpg">
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="JS/animacion.js"></script>
+</body>
+</html>

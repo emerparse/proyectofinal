@@ -1,0 +1,128 @@
+/*ESTILOS-FUNCIONES*/
+
+/*CLASES de la barra de menú
+.nav-link.active: al momento que el navegador muestre o la opcion es seleccionada cambia al color seleccionado
+.nav-linl:solo coloca el color a los textos del menú de manera predeterminada
+.fondomenu:Coloca colo al fondo de la barra de menu de opciones, color: determina el color de la viñeta qeu se añade automaticamente
+.classLogo: Cambia el color y da un espaciado de 1px a cada letra 
+.tituloLogo: mantiene al lado derecho, ambos elementos entre los espacios, alineamiento vertical
+.padding-left: da un espaciado al lado izquiero al titulo
+*/
+.nav-link.active{
+    color: rgb(234, 234, 234) !important;
+}
+.nav-link{
+    color: rgb(0, 0, 0) !important;
+}
+.fondomenu{
+    background-color: rgb(59, 59, 59);
+    color: rgba(0, 0, 0, 0.891);
+}
+.classLogo{
+    color: rgb(206, 206, 206);
+}
+.tituloLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.tituloUbicacion{
+    padding-left: 40px;
+}
+.separacionIconos{
+    padding-left: 10px;
+}
+/*CLASES EN LA BARRA DE BUSQUEDA
+.fondoTitulo: agrega color al fondo, color determina el color del texto
+.centrado: da centrado a la barra de busqueda
+*/
+.fondoTitulo{
+    background-color: #4d4d5c;
+    color: #fff;
+}
+
+.centrado{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    align-items: center;
+}
+/*CLASES EN EL SLIDER
+.colorSlider: le da color de fondo al contenedor Slider
+.imagenslider: modifica cada imagen dentro del carrucel
+*/
+.colorSlider{
+    background-color:chocolate;
+}
+.imagenslider{
+    width: 100%;
+    height: auto; 
+}
+
+/*CLASES GENERALES
+.subtitulo: se aplica al titulo     CATALOGO,UBICACION, HORARIO DE ATENCION, CONTACTO Y ASESORAMIENTO
+*/
+.subtitulo{
+    padding-top: 90px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+/*CLASES EN CATALOGO
+.portafolio: modifica el borde,  cada imagen y texto en los elementos del catalogo
+*/
+.portafolio{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.colorOferta{
+    color: red;
+}
+/*CLASES DE UBICANOS
+.colorUbicanos: da color de fondo al contenedor y al texto
+*/
+.colorUbicanos{
+    background-color: #2c3e50;
+}
+.colorTextUbicanos{
+    color: beige;
+}
+
+/*
+FUNCIONES EN EL FOOTER
+
+.tituloFooter: aplica para los titulos: Direccion, redes sociales y sobre nosotros.
+.btn:hover: aplica el color al icono cuando es colocado el mouse.
+.pie: Aplica color de fondo, color al texro, distancia a los lados.
+.botonRedes: aplica estructura y centrado a los iconos dentro de figuras de forma circular(border-radius: 100%;)
+    con un tamaño de 60px alineado.
+*/
+.tituloFooter{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.btn:hover{
+    color: #000528;
+}
+.pie{
+    background-color: #000528;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-size: 20px;
+}
+.botonRedes{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+}
+.whatsappNumero{
+    display: flex;
+    align-items: center;
+}
+
